@@ -119,7 +119,7 @@ export default function CardsTableClient({ cards: initialCards }: { cards: Card[
                 <>
                   <td className="p-2 border">{card.id}</td>
                   <td className="p-2 border">{card.name}</td>
-                  <td className="p-2 border">{card.words?.join(', ')}</td>
+                 
                   <td className="p-2 border">{card.category}</td>
                   <td className="p-2 border">
                     <button className="mr-2 underline" onClick={() => startEdit(card)}>Edit</button>
